@@ -31,7 +31,7 @@ gate](https://sonarcloud.io/api/project_badges/measure?project=web%3Apipin&metri
 
 - Base de données : mongodb, mlab
 - travis
-- sonarcloud
+- sonarcloud 
 - Heroku
 
 ## Organisation du dépôt
