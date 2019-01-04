@@ -52,7 +52,7 @@ display(
   "navbar-container"
 );
 
-display(<WorldMap ref={(c) => worldmap = c}/>, "map-col");
+display(<WorldMap ref={(WorldMap) => worldmap = WorldMap}/>, "map-col");
 
 dispMarker();
 
