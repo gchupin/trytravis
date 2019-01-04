@@ -1,10 +1,5 @@
 sudo: required
 dist: trusty
-addons:
-  sonarcloud:
-    organization: probakilla-github
-notifications:
-  email: false
 language: node_js
 jdk:
 - oraclejdk8
@@ -13,7 +8,6 @@ before_script:
 - npm install
 script:
 - pm2 start src/server/app.js
-- sonar-scanner
 deploy:
   provider: heroku
   api_key:
